@@ -1,0 +1,10 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Новости на сайте{% endblock %}
+
+{% block content %}
+    <div class="features1">
+        <h1>{{ artiles.title }}</h1>
+        <p>{{ artiles.full_text }}</p>
+    </div>
+{% endblock %}
